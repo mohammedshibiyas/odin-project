@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+body{
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navs{
+    margin-left: 1%;  
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+
+}
+.navs div a{
+    margin-left: 20px;
+    font-size: 14px;
+    color: #6b7280;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-family:  Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navbar span a{
+    font-family: 'Germania One', cursive;
+    margin-right:150px;
+    margin-left: 30px;
+    
+}
+.navbar{
+   
+   margin-top: 2px;
+   background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.navbar img{
+    width: 10%;
+  
+}
+.navs div i{
+    color: #6b7280;
+    cursor: pointer;
+}
+.navs div i:hover{
+    color: #4f535c;
+}
+.nav-btn button{
+    background-color: #0f766e;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 15px;
+}
+.nav-btn button:hover{
+    background-color: #0e6760;
+}
+.navs div a:hover{
+    color: black;
+    border-bottom: 2px solid #6b728096;
+}
+.heading{
+    justify-content: center;
+    
+    margin-top: 8%;
+    text-align: center;
+    height: 250px;
+  
+}
+.heading h1{
+    color: #374151;
+    font-size: 50px;
+    font-family: Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.heading h1 span{
+    color: #a9792b;
+}
+.heading p{
+    margin-top: 1%;
+    text-align: center;
+    color:#6b7280;
+    font-size: 20px;
+}
+.curriculum {
+    width: 100%;
+    
+    margin-top: 5%;
+}
+.curriculum a{
+   border: 1px solid #6b72804a;
+   padding: 15px 30px;
+   border-radius: 5px;
+   color:#6b7280;
+   text-decoration: none;
+  
+}
+.banner{
+    margin-top: 5%;
+}
+/* how it */
+.how-it{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    
+    
+}
+.how-it p{
+    width: 50%;
+    padding-top: 2%;
+    color:#6b7280;
+    margin: auto;
+    font-size: large;
+    text-align: center;
+}
+.how-icon{
+    width: 80%;
+   
+    justify-content: space-evenly;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items: baseline;
+    
+    margin-left: 3%;
+    margin-left: 10%;
+    
+   
+}
+.how-it-main{
+    width: 100%;
+}
+.how-icon h3{
+    margin-top: 8%;
+    font-size: 22px;
+}
+.learn-label p{
+    width: 100%;
+    font-size: 17px;
+    
+}
+.built{
+    margin-top: 10%;
+}
+#built-head{
+    margin-top: 10%;
+}
+#connect-img{
+    height: 160px;
+}
+/* card */
+
+.row1{
+   
+    display: flex;
+    gap: 25px;
+    justify-content:center
+}
+
+.box{
+    background-color: #f3f4f6; 
+    padding-top: 50px;
+    margin-top: 60px;
+    height: 1200px;
+}
+.card{
+    background-color:#ffff;
+    border: 0px solid white;
+    width: 16%;
+    height: 250px;
+    margin-top: 5%;
+    border-radius: 0px;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card img{
+    width: 75%;
+    margin: auto;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #3b3e44;
+}
+#grey-btn{
+    margin-top: 5%;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: .5px solid #3b3e446d;
+    background-color: white;
+}
+#grey-btn:hover{
+    background-color: rgba(255, 255, 255, 0.543);
+}
+/* success */
+
+.success {
+    margin-top: 6%;
+    width: 100%;
+    height: auto;
+}
+
+.success h2{
+    text-align: center;
+    font-weight: 530;
+}
+.robo {
+    /* margin-left: 5%; */
+    
+}
+.robo img{
+    width: 95%;
+    border-radius: 100%;
+}
+.succes1{
+    margin-top: 5%;
+}
+.robo a{
+    color: black;
+}
+.robo p{
+    font-weight: 400;
+    font-size: 17px;
+    width: 95%;
+    letter-spacing: .3px;
+}
+.robo a:hover{
+    text-decoration: none;
+}
+.succes-read {
+  text-align: center;
+  margin-top: 5%;
+}
+.succes-read a{
+    color: #374151;
+    font-size: 17px;
+}
+.succes-read a:hover{
+    text-decoration: none;
+}
+.support{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+.support p{
+    width: 45%;
+    color: #6b7280;
+    padding-top: 5px;
+    margin: auto;
+}
+.support-btn{
+    margin-top: 2%;
+   
+}
+.support-btn button{
+    margin-left: 10px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    
+}
+#support-btn1{
+    background-color: white;
+    color: #6b7280;
+    border:.2px solid#6b7280;  
+}
+#support-btn2{
+    background-color: #0f766e;
+    color: white;
+    border: none;
+}
+.support-btn i{
+    margin-left: 9px;
+}
+
+.footer{
+    margin-top: 6%;
+}
+.odin{
+
+}
+.odin a{
+    font-family: 'Germania One', cursive;
+    margin-left: 8px;
+    font-size: 19px;
+ }
+ .odin img{
+     width: 10.2%;
+ }
+ .odin i{
+    color:#6b7280;
+    margin-left: 22px;
+    font-size: 24px;
+ }
+ .odin p{
+    width: 120%;
+    margin-top: 5%;
+    font-size: 15px;
+    color: #6b7280;
+
+ }
+ 
+#f-head{
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+.about{
+    margin-left: 7%;
+}
+.footer p{
+    color: #6b7280;
+}
+.footer-line{
+    border-bottom: 1px solid  #6b7280b7;
+    margin-top: 5%;
+    opacity: 1;
+}
+.footer span p{
+    margin-top: 2%;
+    font-size: 14px;
+}
+
+
+
+@media(min-width:350px) and (max-width:575.98px){
+
+.navs{
+    display: inline;
+}
+
+.navbar{
+    margin-left: 0%;
+   margin-top: 2px;
+   background-color: white;
+    width: 100%;
+    position:unset;
+    top: 0;
+}
+.navs i{
+    display: none;
+}
+.title{
+    display: none;
+}
+.navbar img{
+    width: 80%;
+}
+/* career */
+
+.heading h1{ 
+    font-size: 35px;  
+}
+
+.heading p{
+    margin-top: 5%;
+    text-align: center;  
+    font-size: 14px;
+}
+
+.curriculum {
+   margin-top: 16%;
+   
+ }
+ .banner img{
+    margin-top: 10%;
+ }
+ .how-it{
+    margin-top: 15%;
+ }
+ .how-it p{
+    width: 95%;
+    font-size: 15px;
+ }
+ 
+.how-icon{
+    width: 80%;  
+   
+    margin: auto;
+    display: inline;
+    gap: 30px;
+    align-items: baseline; 
+    margin-left: 3%;
+    margin-left: 10%; 
+}
+.connect{
+    margin-top: 10%;
+}
+.how-icon img{
+    width: 30%;
+}
+.box{
+    height: 2200px;
+    background-color: #f3f4f6; 
+    padding-top: 50px;
+    margin-top: 60px;
+
+}
+.row1{
+    display: inline;
+}
+
+.card{
+    background-color:#ffff;
+    border: 0px solid white;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 0px;
+}
+.card img{
+    width: 60%;
+}
+#grey-btn{
+    margin-top: 15%;
+}
+
+.robo img{
+    width: 15%;
+    border-radius: 100%;
+}
+.support{
+    margin-top: 20%;
+}
+
+.support p{
+    width: 100%;
+    color: #6b7280;
+    font-size: 13px;
+    padding-top: 5px;
+    margin: auto;
+}
+.support-btn{
+    display: flex;
+    margin-top: 5%;
+    /* margin-left: 20px; */
+    justify-content: space-evenly;
+}
+
+#support-btn1{
+    background-color: white;
+    color: #6b7280;
+    border:.2px solid#6b7280;  
+}
+#support-btn2{
+    background-color: #0f766e;
+    color: white;
+    border: none;
+}
+
+.support-btn button{
+    margin-left: 1px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    
+}
+
+/* footer */
+
+.odin p{
+    width: 60%;
+    margin-top: 5%;
+    font-size: 15px;
+    color: #6b7280;
+
+ }
+ .upper{
+    margin-top: 20%;
+ }
+
+}
